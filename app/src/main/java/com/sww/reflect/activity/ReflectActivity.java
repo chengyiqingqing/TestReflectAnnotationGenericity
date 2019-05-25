@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Button;
 
+import com.sww.genericity.BaseActivity;
 import com.sww.reflect.R;
 import com.sww.reflect.model.TestBean;
 
@@ -14,7 +15,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class ReflectActivity extends AppCompatActivity {
+public class ReflectActivity extends BaseActivity {
 
     private static final String TAG = "ReflectActivity";
 

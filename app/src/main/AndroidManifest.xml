@@ -19,12 +19,15 @@
         <activity android:name=".activity.ReflectActivity">
         </activity>
         <activity android:name="com.sww.annotation.AnnotationActivity">
+        </activity>
+        <activity android:name="com.sww.genericity.GenericityActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
