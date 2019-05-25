@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_constructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取构造函数" />
+
+        <Button
+            android:id="@+id/button_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取方法" />
+
+        <Button
+            android:id="@+id/button_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取属性" />
+    </LinearLayout>
+</FrameLayout>
