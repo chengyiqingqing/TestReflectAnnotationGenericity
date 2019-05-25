@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 // @Target放在哪里：FIELD属性，METHOD方法，TYPE类
 @Target(ElementType.FIELD)
 // @Retention什么时候起作用：runtime运行时，class编译（打包）时，source编码阶段
+//编码时如果用到非runtime，在运行时可能会出错出问题。
 @Retention(RetentionPolicy.RUNTIME)
 public @interface BindViewById {// @interface代表注解
 
